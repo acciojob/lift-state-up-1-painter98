@@ -11,7 +11,7 @@ const App = () => {
           <h1>Parent Component</h1>
           <h2>Child Component</h2>
           <Modal state={showModal} setstate={setShowModal} title={
-            'Modal Content'} desc={'This is the Modal content'}>
+            'Modal Content'} desc={'This is the modal content.'}>
           </Modal>
         </div>
     </div>
