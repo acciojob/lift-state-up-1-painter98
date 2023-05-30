@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/App.css';
 
 function Modal({state,setstate,title,desc}){
 console.log(title,desc);

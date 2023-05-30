@@ -1,6 +1,5 @@
 
 import React,{useState} from "react";
-import './../styles/App.css';
 import Modal from './Modal.js';
 
 const App = () => {
@@ -12,7 +11,7 @@ const App = () => {
           <h1>Parent Component</h1>
           <h2>Child Component</h2>
           <Modal state={showModal} setstate={setShowModal} title={
-            'Modal Content'} desc={'This is Modal content'}>
+            'Modal Content'} desc={'This is the Modal content'}>
           </Modal>
         </div>
     </div>
