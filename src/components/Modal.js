@@ -7,7 +7,7 @@ console.log(title,desc);
         <>
             <button onClick={()=>setstate(!state)}>ShowModal</button>
             {state && <div id="childern">
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{desc}</p>
                 </div>
                 }

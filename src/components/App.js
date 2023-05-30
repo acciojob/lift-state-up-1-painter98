@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <div className="Parent">
+        <div className="parent">
           <h1>Parent Component</h1>
           <h2>Child Component</h2>
           <Modal state={showModal} setstate={setShowModal} title={
